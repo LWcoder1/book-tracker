@@ -1,0 +1,151 @@
+body {
+    background-color: #322653;
+}
+
+button {
+    width: min(20vw, 140px);
+    height: min(4.5vw, 40px);
+    background-color: #9288F8;
+    border: 1px #FFD2D7 solid;
+
+}
+
+svg {
+    width: 30px;
+    height: 30px;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFD2D7;
+    padding: 0px 20px;
+
+
+}
+
+.header h1 {
+    font-size: 2.5rem;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 2vw;
+}
+
+.header-buttons p {
+    font-size: 1.1rem;
+
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8062D6;
+    padding-bottom: 3vh;
+    color: #FFD2D7;
+
+}
+
+.data h1 {
+    margin-top: 15px;
+}
+
+.data-input {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    margin-bottom: 3vh;
+
+}
+
+.rect-inputs input{
+    height: 30px;
+    width: 20vw;
+    border: none;
+    background-color: #FFD2D7;
+}
+
+.book-logs {
+    padding: 0px 20px;
+}
+
+.book-logs h1 {
+    margin: 10px 0px;
+    color: #9288F8;
+}
+
+input:valid {
+    border: green 1.5px solid;
+}
+
+.listed-books {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 15px;
+    justify-content: center;
+}
+
+.listed-books > div {
+    height: 400px;
+    border: burlywood 1px solid;
+}
+
+.book-example {
+    background-color: #9288F8;
+    display: flex;
+}
+
+.dark-covering {
+    width: 20%;
+    height: 100%;
+    background-color: black;
+}
+
+.grid-format {
+    display: grid;
+    justify-content: center;
+    position: relative;
+}
+
+.book-example h1 {
+    color: black;
+    width: 80%;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    align-content: end;
+    justify-items: center;
+}
+
+
+h1.remove:hover {
+    color: red;
+
+}
+
+.finished {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 30%;
+    top: 50%;
+    position: absolute;
+    background-color: gainsboro;
+    opacity: 70%;
+
+}
+
+.button {
+    
+}

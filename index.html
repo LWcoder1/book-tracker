@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- Figure out how preventDefault works in this project -->
+
+
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-7">
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>The Book Tracker</h1>
+            <div class="header-buttons">
+                <p>Home</p>
+                <p>Recomendations</p>
+                <p>Goals</p>
+
+            </div>
+        </div>
+        <form>
+        <div class="data">
+            <h1>Input Your Book</h1>
+                <div class="data-input">
+                    <div class="rect-inputs">
+                        <input type="text" placeholder="Title" class="title" required>    
+                    </div>
+    
+                    <div class="rect-inputs">
+                        <input type="text" placeholder="Author" class="author" required>
+                    </div>
+    
+                    <div class="rect-inputs">
+                        <input type="number" placeholder="Page Number" class="pageNumber" required>
+                    </div>
+    
+                    <div>
+                        <input type="checkbox" class="checkbox" required>
+                        <label>Finished</label>     
+                    </div>
+                    
+                </div>
+
+                <button type="submit" class="submit">Submit</button>
+     
+            </div>
+        </form>
+
+        <div class="book-logs">
+            <h1>Book Logs:</h1>
+            <div class="listed-books">
+
+                <div class="book-example">
+                    <div class="dark-covering"></div>
+                    <div class="grid-format">
+                        <div>
+                            <h1>Percy Jackson and his Adventures</h1>
+                            <p>by Rick Riordan</p>
+                        </div>
+
+                        <div class="finished">
+                            <h1>Finished</h1>
+                        </div>
+
+                        <div class="footer">
+                            <h1>X</h1>
+                            <div>
+                                <label>Finished</label>
+                                <input type="checkbox" class="button" checked>
+                            </div>
+                            <p>Page 300</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </body>
+
+</html>
